@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.logo a {
+  text-decoration: none;
+}
+.logo a:visited {
+  color: inherit;
+}
+.bg {
+  background-image: url(/img/back-img.png);
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+nav {
+  display: flex;
+  height: 80px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px 0 100px;
+  flex-wrap: wrap;
+}
+nav .logo {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+nav .logo span {
+  color: chocolate;
+}
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+nav ul li {
+  margin: 0 5px;
+}
+nav ul li a {
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+nav ul li a.active,
+nav ul li a:hover {
+  color: #fff;
+  background: rgb(210, 105, 30);
+}
+nav .menu-btn i {
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+  display: none;
+}
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: -1;
+  width: 100%;
+  padding: 0 30px;
+  color: #1b1b1b;
+}
+.content div {
+  font-size: 40px;
+  font-weight: 700;
+}
+.hero {
+  width: 100%;
+  height: 93vh;
+  display: inline-flex;
+  flex-direction: column;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+.hero .updates {
+  display: flex;
+  align-items: center;
+  border: 2px solid chocolate;
+  padding: 10px 1.3rem;
+  border-radius: 20px;
+}
+.updates button {
+  margin-right: 1rem;
+}
+.home-title {
+  text-align: center;
+}
+.home-title h1 {
+  font-size: 3rem;
+  text-transform: capitalize;
+}
+.home-title span {
+  color: chocolate;
+}
+.cart {
+  position: relative;
+  font-size: 25px;
+  color: white;
+}
+.cart a:visited {
+  color: white;
+}
+.cart-amount {
+  position: absolute;
+  top: -13px;
+  right: -10px;
+  font-size: 12px;
+  color: white;
+  background-color: chocolate;
+  padding: 3px;
+  border-radius: 5px;
+}

@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  overflow-y: scroll;
+}
+.logo a {
+  text-decoration: none;
+}
+.logo a:visited {
+  color: inherit;
+}
+nav {
+  display: flex;
+  height: 80px;
+  width: 100%;
+  background: #d5aa88;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px 0 100px;
+  flex-wrap: wrap;
+}
+nav .logo {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+nav .logo span {
+  color: chocolate;
+}
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+nav ul li {
+  margin: 0 5px;
+}
+nav ul li a {
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+nav ul li a.active,
+nav ul li a:hover {
+  color: #fff;
+  background: rgb(210, 105, 30);
+}
+nav .menu-btn i {
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+  display: none;
+}
+.TH-Logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 75px;
+}
+.TH-Logo p {
+  color: darkblue;
+  font-size: 25px;
+  text-align: right;
+}
+.TH-Logo img {
+  height: 350px;
+  width: 350px;
+}
+.cart {
+  position: relative;
+  font-size: 25px;
+  color: white;
+}
+.cart-amount {
+  position: absolute;
+  top: -13px;
+  right: -10px;
+  font-size: 12px;
+  color: white;
+  background-color: chocolate;
+  padding: 3px;
+  border-radius: 5px;
+}
+.cart a:visited {
+  color: white;
+}
