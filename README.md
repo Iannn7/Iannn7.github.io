@@ -1,2 +1,8 @@
 # Iannn7.github.io
-E commerce website project for web system
+TECH HUB
+Ian Karl T. Mamontayao
+Vince Huertas
+Jhomarie Onofre
+Kent Tristan Suico
+Ronel Venturina
+Final Project in Web System Technologies
